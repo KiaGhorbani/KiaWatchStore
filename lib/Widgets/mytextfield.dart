@@ -24,7 +24,7 @@ class MyTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Padding(
-      padding: EdgeInsets.all(MyDimens.medium),
+      padding: EdgeInsets.all(MyDimens.large),
       child: SizedBox(
         width: double.infinity,
         child: Column(
@@ -32,7 +32,7 @@ class MyTextField extends StatelessWidget {
           children: [
             Text(label),
             MyDimens.medium.height,
-            SizedBox(height: size.height * .07, width: size.width * .75,
+            SizedBox(height: size.height * .07, width: size.width * .87,
             child: TextField(
               textAlign: textAlign,
               controller: controller,

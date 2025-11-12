@@ -5,6 +5,7 @@ abstract class MyColors {
   MyColors._();
 
   static const Color textTitle = Colors.black;
+  static const Color primaryColor = Colors.blue;
   static const Color enterNumberScreenScaffold = Color.fromARGB(
     255,
     251,
@@ -37,6 +38,8 @@ abstract class MyColors {
   static const Color textFieldHint = Color.fromARGB(255, 217, 220, 228);
   static const Color textFieldBorder = Color.fromARGB(255, 217, 220, 228);
   static const Color textFieldSelectedBorder = Color.fromARGB(255, 0, 117, 251);
+  static const Color textFieldFocused = Colors.white;
+  static const Color textFieldUnfocused = Color.fromARGB(255, 251, 251, 251);
   static const Color button = Color.fromARGB(255, 0, 117, 251);
   static const Color surface = Color.fromARGB(255, 243, 243, 243);
   static const Color newestProductText = Color.fromARGB(255, 119, 119, 119);

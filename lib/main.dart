@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kia_watchstore/Components/theme.dart';
 import 'package:kia_watchstore/Screens/OTP%20Screen/sendotp_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
+      theme: MyTheme.lightTheme(),
       home: SendOtpScreen()
     );
   }
