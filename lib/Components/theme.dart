@@ -9,6 +9,7 @@ class MyTheme {
 
   static ThemeData lightTheme() {
     return ThemeData(
+      fontFamily: "dana",
       brightness: Brightness.light,
       iconTheme: IconThemeData(color: Colors.black),
       primaryColor: MyColors.primaryColor,
@@ -24,6 +25,10 @@ class MyTheme {
         }),
         contentPadding: EdgeInsets.all(MyDimens.medium),
         focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(MyDimens.medium),
+          borderSide: BorderSide(color: MyColors.primaryColor),
+        ),
+        border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(MyDimens.medium),
           borderSide: BorderSide(color: MyColors.primaryColor),
         ),

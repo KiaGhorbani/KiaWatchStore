@@ -3,10 +3,11 @@
 abstract class MyStrings {
   MyStrings._();
 
+  static const String replace = "Replace";
   static const String enterNumber = "شماره ی خود را وارد کنید";
   static const String enterNumberHint = "مثل 09121114466";
   static const String enterOtp = "کد فعال سازی رو وارد کنید";
-  static const String enterOtpHint = "------";
+  static const String enterOtpHint = "- - - - - -";
   static const String fullName = "نام و نام خانوادگی";
   static const String fullNameHint =
       "نام و نام خانوادگی خود را با حروف فارسی وارد کنید";
@@ -19,6 +20,7 @@ abstract class MyStrings {
   static const String postalCodeHint = "کد پستی 10 رقمی خود را وارد کنید";
   static const String location = "موقعیت مکانی";
   static const String locationHint = "برای انتخاب موقعیت مکانی ضربه بزنید";
+  static const String otpSent = "کد فعال سازی برای $replace ارسال شد ";
   static const String wrongNumber = "شماره اشتباه است / ویرایش شماره";
   static const String sendOtp = "ارسال کد فعال سازی";
   static const String next = "ادامه";
@@ -43,4 +45,5 @@ abstract class MyStrings {
   static const String canceled = "لغو شده";
   static const String delivered = "تحویل شده";
   static const String profilePage = "پروفایل کاربر";
+  static const String register = "ثبت نام";
 }

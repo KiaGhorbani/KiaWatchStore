@@ -41,6 +41,7 @@ abstract class MyColors {
   static const Color textFieldFocused = Colors.white;
   static const Color textFieldUnfocused = Color.fromARGB(255, 251, 251, 251);
   static const Color button = Color.fromARGB(255, 0, 117, 251);
+  static const Color buttonText = Color.fromARGB(255, 255, 255, 255);
   static const Color surface = Color.fromARGB(255, 243, 243, 243);
   static const Color newestProductText = Color.fromARGB(255, 119, 119, 119);
   static const Color mostSalesProductText = Color.fromARGB(255, 207, 39, 85);
