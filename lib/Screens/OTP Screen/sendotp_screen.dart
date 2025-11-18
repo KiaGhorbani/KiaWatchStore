@@ -3,6 +3,7 @@ import 'package:kia_watchstore/Extensions/sizedbox_extension.dart';
 import 'package:kia_watchstore/Resources/colors.dart';
 import 'package:kia_watchstore/Resources/dimens.dart';
 import 'package:kia_watchstore/Resources/strings.dart';
+import 'package:kia_watchstore/Routes/route_names.dart';
 import 'package:kia_watchstore/Widgets/mybutton.dart';
 import 'package:kia_watchstore/Widgets/mytextfield.dart';
 
@@ -28,7 +29,9 @@ class SendOtpScreen extends StatelessWidget {
             ),
             MyDimens.medium.height,
             MyElevatedButton(
-              onPressed: () {  },
+              onPressed: () {
+                Navigator.pushNamed(context, ScreenNames.enterOtpScreen);
+              },
               buttonText: MyStrings.sendOtp,)
           ],
         ),

@@ -6,6 +6,7 @@ import 'package:kia_watchstore/Widgets/mybutton.dart';
 import 'package:kia_watchstore/Widgets/mytextfield.dart';
 
 import '../../Resources/colors.dart';
+import '../../Routes/route_names.dart';
 
 class GetOtpScreen extends StatelessWidget {
   const GetOtpScreen({super.key});
@@ -36,7 +37,9 @@ class GetOtpScreen extends StatelessWidget {
 
             ),
             MyElevatedButton(
-              onPressed: () {  },
+              onPressed: () {
+                Navigator.pushNamed(context, ScreenNames.registerScreen);
+              },
               buttonText: MyStrings.next,)
           ],
         ),
