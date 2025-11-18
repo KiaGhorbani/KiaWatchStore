@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:kia_watchstore/Routes/route_names.dart';
-import 'package:kia_watchstore/Screens/Main%20Screen/cart_screen.dart';
 import 'package:kia_watchstore/Screens/Main%20Screen/main_screen.dart';
 import 'package:kia_watchstore/Screens/OTP%20Screen/getotp_screen.dart';
 import 'package:kia_watchstore/Screens/OTP%20Screen/sendotp_screen.dart';
