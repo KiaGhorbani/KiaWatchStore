@@ -36,7 +36,8 @@ abstract class MyColors {
   );
   static const Color appBar = Color.fromARGB(255, 255, 255, 255);
   static const Color bottomNav = Color.fromARGB(255, 255, 255, 255);
-  static const Color bottomNavBorder = Color.fromARGB(255, 0, 0, 0);
+  static const Color bottomNavItemActive = Color.fromARGB(255, 0, 0, 0);
+  static const Color bottomNavItemInActive = Color.fromARGB(255, 196, 196, 196);
   static const Color textFieldHint = Color.fromARGB(255, 217, 220, 228);
   static const Color textFieldBorder = Color.fromARGB(255, 217, 220, 228);
   static const Color textFieldSelectedBorder = Color.fromARGB(255, 0, 117, 251);
