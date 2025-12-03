@@ -52,7 +52,7 @@ class MyTextField extends StatelessWidget {
                 keyboardType: inputType,
                 decoration: InputDecoration(
                   hintText: hint,
-                  hintStyle: LightTextStyles.textFieldHint,
+                  hintStyle: LightTextStyles.hint,
 
                   prefixIcon: icon,
                 ),

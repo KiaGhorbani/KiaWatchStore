@@ -25,7 +25,7 @@ class LightTextStyles {
     color: MyColors.bottomNavItemInActive,
   );
 
-  static TextStyle textFieldHint = TextStyle(
+  static TextStyle hint = TextStyle(
     fontFamily: "dana",
     fontSize: 11,
     fontWeight: FontWeight.w300,

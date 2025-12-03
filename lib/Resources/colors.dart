@@ -5,6 +5,7 @@ abstract class MyColors {
   MyColors._();
 
   static const Color textTitle = Colors.black;
+  static const Color shadow = Color.fromARGB(120, 0, 0, 0);
   static const Color primaryColor = Colors.blue;
   static const Color enterNumberScreenScaffold = Color.fromARGB(
     255,
@@ -35,10 +36,11 @@ abstract class MyColors {
     255,
   );
   static const Color appBar = Color.fromARGB(255, 255, 255, 255);
+  static const Color searchBar = Color.fromARGB(255, 255, 255, 255);
   static const Color bottomNav = Color.fromARGB(255, 255, 255, 255);
   static const Color bottomNavItemActive = Color.fromARGB(255, 0, 0, 0);
   static const Color bottomNavItemInActive = Color.fromARGB(255, 196, 196, 196);
-  static const Color textFieldHint = Color.fromARGB(255, 217, 220, 228);
+  static const Color textFieldHint = Color.fromARGB(255, 200, 202, 211);
   static const Color textFieldBorder = Color.fromARGB(255, 217, 220, 228);
   static const Color textFieldSelectedBorder = Color.fromARGB(255, 0, 117, 251);
   static const Color textFieldFocused = Colors.white;
