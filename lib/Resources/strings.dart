@@ -46,4 +46,8 @@ abstract class MyStrings {
   static const String delivered = "تحویل شده";
   static const String profilePage = "پروفایل کاربر";
   static const String register = "ثبت نام";
+  static const String classicWatch = "کلاسیک";
+  static const String smartWatch = "هوشمند";
+  static const String digitalWatch = "دیجیتال";
+  static const String onDeskWatch = "رو میزی";
 }

@@ -55,4 +55,20 @@ abstract class MyColors {
   static const Color discountTimer = Color.fromARGB(255, 0, 117, 251);
   static const Color discountBorder = Color.fromARGB(255, 0, 117, 251);
   static const Color discountPercent = Color.fromARGB(255, 255, 58, 58);
+  static const List<Color> classicWatch = [
+    Color.fromARGB(255, 255, 166, 114),
+    Color.fromARGB(255, 255, 227, 200),
+  ];
+  static const List<Color> smartWatch = [
+    Color.fromARGB(255, 139, 162, 168),
+    Color.fromARGB(255, 223, 238, 245),
+  ];
+  static const List<Color> digitalWatch = [
+    Color(0xFFE183D4),
+    Color(0xFFFFE6F5),
+  ];
+  static const List<Color> onDeskWatch = [
+    Color(0xFF8396E1),
+    Color(0xFFE6FCFF),
+  ];
 }

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:kia_watchstore/Components/text_style.dart';
 import 'package:kia_watchstore/Resources/colors.dart';
-import 'package:kia_watchstore/Resources/dimens.dart';
-import 'package:kia_watchstore/Resources/strings.dart';
+import 'package:kia_watchstore/Widgets/homescreen_categories.dart';
+import 'package:kia_watchstore/Widgets/homescreen_searchbar.dart';
+import 'package:kia_watchstore/Widgets/homescreen_slider.dart';
+
+import '../../Resources/strings.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,35 +18,42 @@ class HomeScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(MyDimens.medium),
-                child: Container(
-                  height: 52,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: MyColors.searchBar,
-                    borderRadius: BorderRadius.circular(60),
-                    boxShadow: [
-                      BoxShadow(
-                          color: MyColors.shadow,
-                          offset: Offset(0, 3),
-                        blurRadius: 4
-
-                      ),
-                    ],
+              //Search Bar
+              MySearchBar(onTap: () {}),
+              //Poster (Slider)
+              MySlider(),
+              //Watch Categories
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  WatchCategory(
+                    catColor: MyColors.onDeskWatch,
+                    catPic: "assets/icons/SVG/Desk Watch.svg",
+                    catText: MyStrings.onDeskWatch,
+                    onTap: () {},
                   ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                    SvgPicture.asset("assets/icons/SVG/Search.svg"),
-                    Text(MyStrings.search , style: LightTextStyles.hint,),
-                    Image.asset("assets/images/PNG/Logo.png")
-                    
-                    
-                    
-                    
-                  ],),
-                ),
+
+                  WatchCategory(
+                    catColor: MyColors.digitalWatch,
+                    catPic: "assets/icons/SVG/Digital Watch.svg",
+                    catText: MyStrings.digitalWatch,
+                    onTap: () {},
+                  ),
+
+                  WatchCategory(
+                    catColor: MyColors.smartWatch,
+                    catPic: "assets/icons/SVG/Smart Watch.svg",
+                    catText: MyStrings.smartWatch,
+                    onTap: () {},
+                  ),
+
+                  WatchCategory(
+                    catColor: MyColors.classicWatch,
+                    catPic: "assets/icons/SVG/Classic Watch.svg",
+                    catText: MyStrings.classicWatch,
+                    onTap: () {},
+                  ),
+                ],
               ),
             ],
           ),
