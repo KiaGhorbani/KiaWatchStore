@@ -13,11 +13,48 @@ class LightTextStyles {
     color: MyColors.textTitle,
   );
 
+
+  static TextStyle watchItemTitle = TextStyle(
+    fontFamily: "dana",
+    fontSize: 13,
+    color: MyColors.textTitle,
+  );
+
+
+  static TextStyle discountTimer = TextStyle(
+    fontFamily: "dana",
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: MyColors.discountTimer,
+  );
+
+
+
+
+  static TextStyle oldPrice = TextStyle(
+    fontFamily: "dana",
+    fontSize: 13,
+    color: MyColors.oldPrice,
+    decoration: TextDecoration.lineThrough
+  );
+
+
+
+
   static TextStyle bottomNavItemActive = TextStyle(
     fontFamily: "dana",
     fontSize: 12,
     color: MyColors.bottomNavItemActive,
   );
+
+  static TextStyle amazing = TextStyle(
+    fontFamily: "dana",
+    fontSize: 22,
+    color: MyColors.amazing,
+    fontWeight: FontWeight.w700,
+  );
+
+
 
   static TextStyle bottomNavItemInActive = TextStyle(
     fontFamily: "dana",

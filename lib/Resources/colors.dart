@@ -55,6 +55,8 @@ abstract class MyColors {
   static const Color discountTimer = Color.fromARGB(255, 0, 117, 251);
   static const Color discountBorder = Color.fromARGB(255, 0, 117, 251);
   static const Color discountPercent = Color.fromARGB(255, 255, 58, 58);
+  static const Color oldPrice = Color.fromARGB(255, 191, 191, 191);
+  static const Color amazing = Color.fromARGB(255, 57, 24, 80);
   static const List<Color> classicWatch = [
     Color.fromARGB(255, 255, 166, 114),
     Color.fromARGB(255, 255, 227, 200),
@@ -71,4 +73,10 @@ abstract class MyColors {
     Color(0xFF8396E1),
     Color(0xFFE6FCFF),
   ];
+  static const List<Color> watchItem = [
+    Color(0xFFEEEEEE),
+    Color(0xFFFFFFFF),
+  ];
+
+
 }

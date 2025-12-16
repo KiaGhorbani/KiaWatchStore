@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:kia_watchstore/Extensions/sizedbox_extension.dart';
 import 'package:kia_watchstore/Resources/colors.dart';
+import 'package:kia_watchstore/Resources/dimens.dart';
 import 'package:kia_watchstore/Widgets/homescreen_categories.dart';
 import 'package:kia_watchstore/Widgets/homescreen_searchbar.dart';
 import 'package:kia_watchstore/Widgets/homescreen_slider.dart';
+import 'package:kia_watchstore/Widgets/homescreen_watchlist.dart';
 
 import '../../Resources/strings.dart';
 
@@ -55,6 +58,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              MyDimens.medium.height,
+              //Watch List
+              MyWatchList()
             ],
           ),
         ),
