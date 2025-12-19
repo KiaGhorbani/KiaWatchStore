@@ -4,7 +4,7 @@ import 'package:kia_watchstore/Resources/colors.dart';
 import 'package:kia_watchstore/Resources/dimens.dart';
 import 'package:kia_watchstore/Resources/strings.dart';
 import 'package:kia_watchstore/Routes/route_names.dart';
-import 'package:kia_watchstore/Widgets/myappbar.dart';
+import 'package:kia_watchstore/Widgets/appbar_signup.dart';
 import 'package:kia_watchstore/Widgets/myavatar.dart';
 import 'package:kia_watchstore/Widgets/mybutton.dart';
 import 'package:kia_watchstore/Widgets/mytextfield.dart';
@@ -19,7 +19,7 @@ class RegisterScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         backgroundColor: MyColors.signUpScreenScaffold,
-        appBar: MyAppBar(size: size, appBarText: MyStrings.register),
+        appBar: SignUpAppBar(size: size, appBarText: MyStrings.register),
         body: SingleChildScrollView(
           child: Column(
             children: [

@@ -4,8 +4,8 @@ import 'package:kia_watchstore/Extensions/sizedbox_extension.dart';
 import '../Components/text_style.dart';
 import '../Resources/colors.dart';
 
-class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const MyAppBar({super.key, required this.size, required this.appBarText});
+class SignUpAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const SignUpAppBar({super.key, required this.size, required this.appBarText});
 
   final Size size;
   final String appBarText;

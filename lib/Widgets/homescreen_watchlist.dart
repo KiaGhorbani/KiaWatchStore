@@ -3,7 +3,9 @@ import 'package:kia_watchstore/Widgets/homescreen_rotatedtexts.dart';
 import 'package:kia_watchstore/Widgets/homescreen_watchitem.dart';
 
 class MyWatchList extends StatelessWidget {
-  const MyWatchList({super.key});
+  const MyWatchList({super.key, required this.watchListTitle, required this.onTap});
+  final String watchListTitle;
+  final void Function() onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +28,7 @@ class MyWatchList extends StatelessWidget {
               },
             ),
           ),
-          MyRotatedText()
+          MyRotatedText(watchListTitle: watchListTitle, onTap: onTap,)
 
 
         ],

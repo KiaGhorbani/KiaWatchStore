@@ -5,7 +5,9 @@ import 'package:kia_watchstore/Resources/dimens.dart';
 import 'package:kia_watchstore/Resources/strings.dart';
 
 class MyRotatedText extends StatelessWidget {
-  const MyRotatedText({super.key});
+  const MyRotatedText({super.key, required this.watchListTitle, required this.onTap});
+  final String watchListTitle;
+  final void Function() onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -15,17 +17,21 @@ class MyRotatedText extends StatelessWidget {
         quarterTurns: -1,
         child: Column(
           children: [
-            Row(
-              children: [
-                Icon(Icons.arrow_circle_up),
-                MyDimens.small.width,
-                Text(MyStrings.seeAll),
-              ],
+            GestureDetector(
+
+              onTap: onTap,
+              child: Row(
+                children: [
+                  Icon(Icons.arrow_circle_up),
+                  MyDimens.small.width,
+                  Text(MyStrings.seeAll),
+                ],
+              ),
             ),
 
             MyDimens.medium.height,
 
-            Text(MyStrings.amazing , style: LightTextStyles.amazing,),
+            Text(watchListTitle , style: LightTextStyles.amazing,),
           ],
         ),
       ),

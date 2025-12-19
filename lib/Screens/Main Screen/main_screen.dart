@@ -93,7 +93,6 @@ class _MainScreenState extends State<MainScreen> {
               ),
             ),
 
-
             //Bottom Navigation
             Positioned(
               bottom: 0,
@@ -113,6 +112,7 @@ class _MainScreenState extends State<MainScreen> {
                       onTap: () {
                         btmNavOnPressed(index: BottomNavIndexes.profileIndex);
                       },
+                      isCart: false,
                     ),
 
                     MyBottomNavItem(
@@ -122,6 +122,7 @@ class _MainScreenState extends State<MainScreen> {
                       onTap: () {
                         btmNavOnPressed(index: BottomNavIndexes.cartIndex);
                       },
+                      isCart: true,
                     ),
 
                     MyBottomNavItem(
@@ -131,6 +132,7 @@ class _MainScreenState extends State<MainScreen> {
                       onTap: () {
                         btmNavOnPressed(index: BottomNavIndexes.homeIndex);
                       },
+                      isCart: false,
                     ),
                   ],
                 ),

@@ -28,7 +28,7 @@ abstract class MyStrings {
   static const String search = "جستجوی محصولات";
   static const String seeAll = "مشاهده همه";
   static const String amazing = "شگفت انگیر";
-  static const String mostSales = "پرفروش ها";
+  static const String mostSales = "پرفروش ترین ها";
   static const String newest = "جدیدترین";
   static const String home = "خانه";
   static const String cart = "سبد خرید";

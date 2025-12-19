@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:kia_watchstore/Extensions/sizedbox_extension.dart';
+import 'package:kia_watchstore/Widgets/cart_icon.dart';
 
 import '../Components/text_style.dart';
 import '../Resources/colors.dart';
@@ -11,12 +12,13 @@ class MyBottomNavItem extends StatelessWidget {
     super.key,
     required this.itemText,
     required this.itemIconPath,
-    required this.isActive, required this.onTap,
+    required this.isActive, required this.onTap, required this.isCart,
   });
 
   final String itemText;
   final String itemIconPath;
   final bool isActive;
+  final bool isCart;
   final void Function()? onTap;
 
   @override
@@ -31,7 +33,7 @@ class MyBottomNavItem extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SvgPicture.asset(
+              isCart ? CartIcon(count: 2, isActive: isActive, isBottomNav: true,) : SvgPicture.asset(
                 itemIconPath,
                 colorFilter: ColorFilter.mode(
                   isActive
@@ -40,7 +42,7 @@ class MyBottomNavItem extends StatelessWidget {
                   BlendMode.srcIn,
                 ),
               ),
-              MyDimens.small.height,
+             MyDimens.small.height,
               Text(
                 itemText,
                 style: isActive
