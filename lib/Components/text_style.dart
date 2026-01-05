@@ -21,6 +21,29 @@ class LightTextStyles {
   );
 
 
+  static TextStyle watchItemCaption = TextStyle(
+    fontFamily: "dana",
+    fontSize: 13,
+    color: MyColors.textTitle.withAlpha(150),
+  );
+
+
+  static TextStyle watchTabSelected = TextStyle(
+    fontFamily: "dana",
+    fontSize: 13,
+    color: MyColors.textTitle,
+  );
+
+  static TextStyle watchTabUnSelected = TextStyle(
+    fontFamily: "dana",
+    fontSize: 13,
+    color: MyColors.textTitle.withAlpha(125),
+  );
+
+
+
+
+
   static TextStyle discountTimer = TextStyle(
     fontFamily: "dana",
     fontSize: 15,
@@ -82,4 +105,13 @@ class LightTextStyles {
     fontWeight: FontWeight.w300,
     color: MyColors.buttonText,
   );
+
+
+  static TextStyle addToCartButtonText = TextStyle(
+    fontFamily: "dana",
+    fontSize: 12,
+    fontWeight: FontWeight.w500,
+    color: MyColors.buttonText,
+  );
+
 }

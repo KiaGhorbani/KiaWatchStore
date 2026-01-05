@@ -57,6 +57,7 @@ abstract class MyColors {
   static const Color discountPercent = Color.fromARGB(255, 255, 58, 58);
   static const Color oldPrice = Color.fromARGB(255, 191, 191, 191);
   static const Color amazing = Color.fromARGB(255, 57, 24, 80);
+  static const Color addToCartButton = Color(0xFF0075FB);
   static const List<Color> classicWatch = [
     Color.fromARGB(255, 255, 166, 114),
     Color.fromARGB(255, 255, 227, 200),

@@ -46,7 +46,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   //TODO navigate to cart screen
-                  CartIcon(count: 2, isActive: true, isBottomNav: false,),
+                  CartIcon(count: 0, isActive: true, isBottomNav: false,),
                   isWatchScreen
                       ? SizedBox()
                       : Row(
