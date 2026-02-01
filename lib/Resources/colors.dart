@@ -54,6 +54,7 @@ abstract class MyColors {
   static const Color discountText = Color.fromARGB(255, 0, 117, 251);
   static const Color discountTimer = Color.fromARGB(255, 0, 117, 251);
   static const Color discountBorder = Color.fromARGB(255, 0, 117, 251);
+  static const Color discountprice = Color.fromARGB(255, 0, 117, 251);
   static const Color discountPercent = Color.fromARGB(255, 255, 58, 58);
   static const Color oldPrice = Color.fromARGB(255, 191, 191, 191);
   static const Color amazing = Color.fromARGB(255, 57, 24, 80);

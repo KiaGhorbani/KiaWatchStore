@@ -38,6 +38,8 @@ abstract class MyStrings {
   static const String comments = "نظرات";
   static const String addToCart = "افزودن به سبد خرید";
   static const String sendToAddress = "ارسال به آدرس";
+  static const String loremIpsum =
+      "لورممشدیبشیاشستنایشستنمیاشستنیاشستنمیذشستنیرذشستنیذشسنیذشستنیذشستنیذشستنیذشستنذشتنس";
   static const String checkout = "ادامه فرآیند خرید";
   static const String activeAddress = "آدرس فعال";
   static const String rules = "قوانین و مقررات";

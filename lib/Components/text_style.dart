@@ -62,6 +62,13 @@ class LightTextStyles {
   );
 
 
+  static TextStyle discountedPrice = TextStyle(
+      fontFamily: "dana",
+      fontSize: 14,
+      color: MyColors.discountprice,
+  );
+
+
 
 
   static TextStyle bottomNavItemActive = TextStyle(
@@ -113,5 +120,16 @@ class LightTextStyles {
     fontWeight: FontWeight.w500,
     color: MyColors.buttonText,
   );
+
+
+  static TextStyle proceedToCheckoutButtonText = TextStyle(
+    fontFamily: "dana",
+    fontSize: 10,
+    fontWeight: FontWeight.w500,
+    color: MyColors.buttonText,
+  );
+
+
+
 
 }
